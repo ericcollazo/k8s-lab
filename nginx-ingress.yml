@@ -6,7 +6,3 @@ spec:
   backend:
     serviceName: nginx-service
     servicePort: 80
-status:
-  loadBalancer:
-    ingress:
-    - ip: 34.102.181.222
