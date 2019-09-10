@@ -1,0 +1,12 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: nginx-ingress
+spec:
+  backend:
+    serviceName: nginx-service
+    servicePort: 80
+status:
+  loadBalancer:
+    ingress:
+    - ip: 34.102.181.222
