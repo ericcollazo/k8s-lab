@@ -1,1 +1,0 @@
-Use `--insecure-skip-tls-verify=true` to reach cluster when using self-signed certs.
