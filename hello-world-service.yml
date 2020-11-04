@@ -9,4 +9,4 @@ spec:
     targetPort: 80
   selector:
     app: hello-world
-  type: NodePort
+  type: LoadBalancer
